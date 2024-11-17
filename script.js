@@ -6,7 +6,7 @@ document.querySelector('#btn').addEventListener('click', () => {
 
 	const displayMessage = async () => {
 		let newPromise = new Promise((resolve, reject) => {
-			return resolve(message);
+			resolve(message);
 		});
 
 		
